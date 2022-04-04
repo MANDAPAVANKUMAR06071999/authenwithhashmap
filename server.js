@@ -8,7 +8,7 @@ const userController = require('./Controllers/userController');
 
 app.get('/welcome',(req,res)=>{
     console.log("hello");
-}
+});
 
 app.post('/register',registerController.registering);
 app.post('/login',loginController.logging_in);
