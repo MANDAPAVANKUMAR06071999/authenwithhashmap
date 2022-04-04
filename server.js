@@ -6,6 +6,9 @@ const registerController = require('./Controllers/registerController');
 const loginController = require('./Controllers/loginController');
 const userController = require('./Controllers/userController');
 
+app.get('/welcome',(req,res)=>{
+    console.log("hello");
+}
 
 app.post('/register',registerController.registering);
 app.post('/login',loginController.logging_in);
