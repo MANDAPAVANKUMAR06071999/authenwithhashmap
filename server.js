@@ -13,6 +13,6 @@ app.get('/user/:id',userController.retrievedata);
 app.post('/user/:id',userController.updatedata);
 
 
-app.listen(7001,()=>{
-    console.log("Server started and running at port number 7001");
+app.listen(7011,()=>{
+    console.log("Server started and running at port number 7011");
 })
